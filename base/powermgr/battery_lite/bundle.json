@@ -1,0 +1,61 @@
+{
+    "name": "@ohos/powermgr_battery_lite",
+    "version": "",
+    "description": "小型和轻量设备电池、充放电状态查询，状态上报",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "Apache V2",
+    "repository": "https://gitee.com/openharmony/powermgr_battery_lite",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "base"
+    ],
+    "keywords": [
+        "powermgr",
+        "battery",
+        "lite"
+    ],
+    "envs": [],
+    "dirs": [],
+    "author": {
+        "name": "",
+        "email": "",
+        "url": ""
+    },
+    "contributors": [
+        {
+            "name": "",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "segment": {
+        "destPath": "base/powermgr/battery_lite"
+    },
+    "component": {
+        "name": "battery_lite",
+        "subsystem": "powermgr",
+        "syscap": [
+            "SystemCapability.PowerMgr.BatteryManager"
+        ],
+        "features": [],
+        "adapted_system_type": [
+            "min",
+            "small"
+        ],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

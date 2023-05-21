@@ -1,0 +1,30 @@
+{
+  "components": [
+    {
+      "component": "genkipi_interfaces",
+      "description": "genkipi interfaces",
+      "optional": "true",
+      "dirs": [
+        "device/itcast/genkipi/interfaces"
+      ],
+      "targets": [
+        "//device/itcast/genkipi/interfaces:genkipi_interfaces"
+      ],
+      "rom": "",
+      "ram": "",
+      "output": [],
+      "adapted_board": [
+        "hi3861v100"
+      ],
+      "adapted_kernel": [
+        "liteos_m"
+      ],
+      "features": [],
+      "deps": {
+        "components": [
+          "utils_base"
+        ]
+      }
+    }
+  ]
+}

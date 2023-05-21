@@ -1,0 +1,41 @@
+{
+    "name": "@ohos/bounds_checking_function",
+    "version": "",
+    "description": "Third-party open-source software bounds_checking_function | 三方开源软件bounds_checking_function",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "MulanPSL-2.0",
+    "repository": "https://gitee.com/openharmony/third_party_bounds_checking_function",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "third_party"
+    ],
+    "keywords": [
+        "third-party",
+        "bounds",
+        "checking",
+        "function"
+    ],
+    "envs": {},
+    "dirs": {},
+    "segment": {
+        "destPath": "third_party/bounds_checking_function"
+    },
+    "component": {
+        "name": "thirdparty_bounds_checking_function",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [],
+        "rom": "",
+        "ram": "",
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

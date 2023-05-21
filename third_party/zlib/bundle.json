@@ -1,0 +1,39 @@
+{
+    "name": "@ohos/zlib",
+    "version": "",
+    "description": "Third-party open-source software zlib | 三方开源软件zlib",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "Zlib LICENSE",
+    "repository": "https://gitee.com/openharmony/third_party_zlib",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "third_party"
+    ],
+    "keywords": [
+        "third-party",
+        "zlib"
+    ],
+    "envs": {},
+    "dirs": {},
+    "segment": {
+        "destPath": "third_party/zlib"
+    },
+    "component": {
+        "name": "thirdparty_zlib",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [],
+        "rom": "",
+        "ram": "",
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

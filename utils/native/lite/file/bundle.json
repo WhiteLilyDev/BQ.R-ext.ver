@@ -1,0 +1,61 @@
+{
+    "name": "@ohos/file",
+    "version": "",
+    "description": "为LiteOS-M内核(Hi3861平台)提供对文件的打开、关闭、读写、获取大小等功能",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "Apache V2",
+    "repository": "https://gitee.com/openharmony/utils_native_lite/tree/master/file",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+		"utils"
+	],
+    "keywords": [
+		"file",
+		"native",
+		"lite"
+	],
+    "envs": [],
+    "dirs": [],
+    "author": {
+        "name": "",
+        "email": "",
+        "url": ""
+    },
+    "contributors": [
+        {
+            "name": "",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "segment": {
+		"destPath": "utils/native/lite/file"
+	},
+    "component": {
+        "name": "file",
+        "subsystem": "native",
+        "syscap": [
+            "SystemCapability.Utils.file"
+        ],
+        "features": [],
+        "adapted_system_type": [
+            "mini",
+            "small"
+        ],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "description": "Configuration for hjunit demo Tests",
+    "driver": {
+        "type": "JSUnitTest",
+        "test-timeout": "120000",
+        "package": "com.example.amsZipfileUnzipfileST",
+        "shell-timeout": "60000"
+    },
+    "kits": [
+        {
+            "test-file-name": [
+                "ActsAmsZipfileUnzipfileSTest.hap"
+            ],
+            "type": "AppInstallKit",
+            "cleanup-apps": true
+        },
+        {
+            "type": "ShellKit",
+            "run-command": [
+                "remount",
+                "mkdir /data/test"
+            ]
+        },
+        {
+            "type": "PushKit",
+            "push": [
+                "./resource/appexecfwk/ceshi.txt->/data/test/ceshi.txt",
+                "./resource/appexecfwk/ceshitwo.zip->/data/test/ceshitwo.zip",
+                "./resource/appexecfwk/ceshitwo.txt->/data/test/ceshitwo.txt"
+                
+               
+            ]
+        },
+        
+        {
+            "type": "ShellKit",
+            "run-command": [
+                "remount",
+                "mkdir /data/testA"
+            ]
+        },
+        {
+            "type": "ShellKit",
+            "run-command": [
+                "chmod 777 /data/testA/*"
+            ]
+        },
+       
+        {
+            "type": "ShellKit",
+            "run-command": [
+                "chmod 777 /data/test/*"
+            ]
+        },
+       
+        {
+            "type": "ShellKit",
+            "run-command": [
+                "remount",
+                "mkdir /data/testb"
+            ]
+        },
+        {
+            "type": "ShellKit",
+            "run-command": [
+                "chmod 777 /data/testb/*"
+            ]
+        }
+       
+       
+       
+
+    ]
+}
+

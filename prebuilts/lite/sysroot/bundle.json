@@ -1,0 +1,56 @@
+{
+    "name": "@ohos/prebuilts_lite_sysroot",
+    "version": "",
+    "description": "System header files and standard libraries | 系统头文件和标准库",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "Apache V2",
+    "repository": "https://gitee.com/openharmony/prebuilts_lite_sysroot",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "prebuilts"
+    ],
+    "keywords": [
+        "prebuilts",
+        "lite",
+        "sysroot"
+    ],
+    "envs": {},
+    "dirs": {},
+    "author": {
+        "name": "",
+        "email": "",
+        "url": ""
+    },
+    "contributors": [
+        {
+            "name": "",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "segment": {
+        "destPath": "prebuilts/lite/sysroot"
+    },
+    "component": {
+        "name": "prebuilts_lite_sysroot",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

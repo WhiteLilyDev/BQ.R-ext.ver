@@ -1,0 +1,39 @@
+{
+    "name": "@ohos/openssl",
+    "version": "",
+    "description": "Third-party open-source software OpenSSL | 三方开源软件OpenSSL",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "OpenSSL,Original SSLeay",
+    "repository": "https://gitee.com/openharmony/third_party_openssl",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "third_party"
+    ],
+    "keywords": [
+        "third-party",
+        "openssl"
+    ],
+    "envs": [],
+    "dirs": [],
+    "segment": {
+        "destPath": "third_party/openssl"
+    },
+    "component": {
+        "name": "thirdparty_openssl",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [],
+        "rom": "",
+        "ram": "",
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

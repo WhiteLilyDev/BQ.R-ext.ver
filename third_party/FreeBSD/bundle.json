@@ -1,0 +1,39 @@
+{
+    "name": "@ohos/freebsd",
+    "version": "",
+    "description": "Third-party open-source software FreeBSD | 三方开源软件FreeBSD",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "BSD 2-Clause",
+    "repository": "https://gitee.com/openharmony/third_party_FreeBSD",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "third_party"
+    ],
+    "keywords": [
+        "third-party",
+        "FreeBSD"
+    ],
+    "envs": {},
+    "dirs": {},
+    "segment": {
+        "destPath": "third_party/FreeBSD"
+    },
+    "component": {
+        "name": "thirdparty_FreeBSD",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [],
+        "rom": "",
+        "ram": "",
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

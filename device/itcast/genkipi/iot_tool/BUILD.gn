@@ -1,0 +1,24 @@
+static_library("iot_tool") {
+    sources = [
+        "src/genki_web.c",
+        "src/genki_web_base.c",
+        "src/genki_web_pyrun.c",
+
+        "src/genki_shell.c",
+        "src/genki_shell_python.c",
+        "src/genki_shell_pyrun.c",
+        "src/genki_shell_wifi_sta.c",
+        "src/genki_shell_wifi_info.c",
+
+        "src/genki_base.c"
+    ]
+
+    include_dirs = [
+        "include",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//device/itcast/genkipi/interfaces/kits",
+    ]
+    deps = [
+
+    ]
+}

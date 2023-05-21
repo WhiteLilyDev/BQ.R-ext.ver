@@ -1,0 +1,63 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+.idea
+.vscode
+
+/sdk_liteos/output/
+/sdk_liteos/tools/nvtool/out_nv_bin/
+/sdk_liteos/tools/nvtool/__pycache__/
+/sdk_liteos/third_party/u-boot-v2019.07/u-boot-v2019.07/
+/sdk_liteos/build/build_tmp/
+/sdk_liteos/build/scripts/__pycache__/
+/sdk_liteos/.sconsign.dblite

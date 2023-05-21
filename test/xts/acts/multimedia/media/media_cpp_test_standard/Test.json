@@ -1,0 +1,34 @@
+{
+    "description": "Configuration for ActsMediaCppStandardTest Tests",
+    "driver": {
+        "native-test-timeout": "4800000",
+        "type": "CppTest",
+        "module-name": "ActsMediaCppStandardTest",
+        "runtime-hint": "1s",
+        "native-test-device-path": "/data/local/tmp"
+    },
+    "kits": [
+        {
+            "type": "PushKit",
+            "pre-push": [
+            ],
+            "push": [
+                "ActsMediaCppStandardTest->/data/local/tmp/ActsMediaCppStandardTest",
+                "resource/media/1h264_320x240_60.3gp ->/data/media/",
+                "resource/media/h264_320x240_60.m4v ->/data/media/",
+                "resource/media/hevc_320x240_30.mp4 ->/data/media/",
+                "resource/media/hevc_320x240_60.mp4 ->/data/media/"
+            ]
+        },
+        {
+            "type": "ShellKit",
+            "run-command": [
+                "chmod -R 666 /data/media/*",
+                "setenforce 0"
+            ],
+            "teardown-command":[
+                "setenforce 1"
+            ]
+        }
+    ]
+}

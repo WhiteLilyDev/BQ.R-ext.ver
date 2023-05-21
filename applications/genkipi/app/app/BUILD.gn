@@ -1,0 +1,20 @@
+
+import("//build/lite/config/component/lite_component.gni")
+
+lite_component("app") {
+    features = [
+#        "base_env",
+#        "dog",
+#        "dog_web",
+        "libm_port",
+
+        "dog_py",
+#        "oled_test",
+#        "lcd_test",
+#        "thread",
+#        "music",
+#        "piano",
+#        "lo_test",
+#        "mpu6050_test",
+    ]
+}

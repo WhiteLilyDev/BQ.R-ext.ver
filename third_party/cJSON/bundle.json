@@ -1,0 +1,39 @@
+{
+    "name": "@ohos/cjson",
+    "version": "",
+    "description": "Third-party open-source software cJSON | 三方开源软件cJSON",
+    "homePage": "https://gitee.com/openharmony",
+    "license": " MIT License",
+    "repository": "https://gitee.com/openharmony/third_party_cJSON",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "third_party"
+    ],
+    "keywords": [
+        "third-party",
+        "cJSON"
+    ],
+    "envs": [],
+    "dirs": [],
+    "segment": {
+        "destPath": "third_party/cJSON"
+    },
+    "component": {
+        "name": "thirdparty_cJSON",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [],
+        "rom": "",
+        "ram": "",
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "@ohos/gn",
+    "version": "",
+    "description": "Third-party open-source software gn | 三方开源软件gn",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "BSD-style",
+    "repository": "https://gitee.com/openharmony/third_party_gn",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "third_party"
+    ],
+    "keywords": [
+        "third-party",
+        "gn"
+    ],
+    "envs": {},
+    "dirs": {},
+    "segment": {
+        "destPath": "third_party/gn"
+    },
+    "component": {
+        "name": "thirdparty_gn",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [],
+        "rom": "",
+        "ram": "",
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

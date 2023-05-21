@@ -1,0 +1,36 @@
+static_library("dog_py") {
+    sources = [
+        "main.c",
+        "pca9685.c",
+        "dog.c",
+        "genki_web_ohosdog.c",
+        "kinematics.c",
+#6050
+        "//applications/genkipi/app/dog_py/mpu6050/mpu6050.c",
+        "//applications/genkipi/app/dog_py/mpu6050/imu.c",
+#7735
+        "//applications/genkipi/app/dog_py/st7735/lcd.c",
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//domains/iot/link/libbuild",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//kernel/liteos_m/kal/cmsis/",
+        "//device/itcast/genkipi/interfaces/kits",
+        "//device/itcast/genkipi/iot_tool/include",
+        "//foundation/communication/wifi_lite/interfaces/wifiservice",
+        "//third_party/cJSON/",
+#6050
+        "//applications/genkipi/app/dog_py/mpu6050",
+#7735
+        "//applications/genkipi/app/dog_py/st7735",
+#1306
+        "//device/itcast/genkipi/hi3861_adapter/hals/interfaces/car/include",
+    ]
+
+    deps = [
+        "//device/itcast/genkipi/iot_tool",
+    ]
+
+}

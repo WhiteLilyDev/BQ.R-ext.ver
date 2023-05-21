@@ -1,0 +1,61 @@
+{
+    "name": "@ohos/dump",
+    "version": "",
+    "description": "该模块提供通过命令行调用dump系统属性的功能",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "Apache V2",
+    "repository": "https://gitee.com/openharmony/utils_native_lite/tree/master/os_dump",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+		"utils"
+	],
+    "keywords": [
+		"os_dump",
+		"native",
+		"lite"
+	],
+    "envs": [],
+    "dirs": [],
+    "author": {
+        "name": "",
+        "email": "",
+        "url": ""
+    },
+    "contributors": [
+        {
+            "name": "",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "segment": {
+		"destPath": "utils/native/lite/os_dump"
+	},
+    "component": {
+        "name": "dump",
+        "subsystem": "native",
+        "syscap": [
+            "SystemCapability.Utils.dump"
+        ],
+        "features": [],
+        "adapted_system_type": [
+            "mini",
+            "small"
+        ],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

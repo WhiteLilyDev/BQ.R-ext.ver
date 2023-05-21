@@ -1,0 +1,18 @@
+static_library("mpu6050_test") {
+
+    sources = [
+        "main.c",
+        "mpu6050.c",
+        "imu.c",
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//kernel/liteos_m/kal/cmsis",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//device/itcast/genkipi/interfaces/kits",
+        "//device/itcast/genkipi/iot_tool/include",
+        "//device/itcast/genkipi/hi3861_adapter/hals/interfaces/car/include", #ssd1306
+    ]
+
+}

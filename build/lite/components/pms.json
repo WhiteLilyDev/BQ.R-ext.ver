@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "component": "powermanageservice",
+      "optional": "true",
+      "dirs": [
+        "base/powermgr/powermgr_lite"
+      ],
+      "targets": [
+        "//base/powermgr/powermgr_lite/services:power_manage_service"
+      ],
+      "rom": "22KB",
+      "ram": "~10KB",
+      "output": [
+        "libpms.so"
+      ],
+      "adapted_kernel": [
+        "liteos_a",
+        "linux"
+      ],
+      "features": [
+        "enable_ohos_appexecfwk_feature_ability = true"
+      ],
+      "deps": {
+        "components": [
+          "ability",
+          "bundle_mgr",
+          "system_ability_manager",
+          "ui"
+        ],
+        "third_party": [
+          "bounds_checking_function"
+        ]
+      }
+    }
+  ]
+}

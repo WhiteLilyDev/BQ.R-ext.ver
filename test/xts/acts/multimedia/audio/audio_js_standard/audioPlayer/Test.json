@@ -1,0 +1,59 @@
+{
+    "description": "Configuration for audioPlayer Tests",
+    "driver": {
+        "type": "JSUnitTest",
+        "test-timeout": "2000000",
+        "package": "ohos.acts.multimedia.audio.audioplayer",
+		"shell-timeout": "60000"
+    },
+    "kits": [
+        {
+            "type": "PushKit",
+            "pre-push": [
+            ],
+            "push": [
+                "./resource/audio/01.mp3 ->/data/media/",
+                "./resource/audio/02.mp3 ->/data/media/",
+                "./resource/audio/03.mp3 ->/data/media/",
+                "./resource/audio/04.mp3 ->/data/media/",
+                "./resource/audio/47.mp4 ->/data/media/",
+                "./resource/audio/49.mp4 ->/data/media/",
+                "./resource/audio/50.mp4 ->/data/media/",
+                "./resource/audio/51.mp4 ->/data/media/",
+                "./resource/audio/54.mp4 ->/data/media/",
+                "./resource/audio/55.m4a ->/data/media/",
+                "./resource/audio/57.m4a ->/data/media/",
+                "./resource/audio/58.m4a ->/data/media/",
+                "./resource/audio/59.m4a ->/data/media/",
+                "./resource/audio/62.m4a ->/data/media/",
+                "./resource/audio/64.mp4 ->/data/media/",
+                "./resource/audio/65.mp4 ->/data/media/",
+                "./resource/audio/66.mp4 ->/data/media/",
+                "./resource/audio/67.mp4 ->/data/media/",
+                "./resource/audio/92.mp4 ->/data/media/",
+                "./resource/audio/93.mp4 ->/data/media/",
+                "./resource/audio/94.mp4 ->/data/media/",
+                "./resource/audio/96.mp4 ->/data/media/",
+                "./resource/audio/97.mp4 ->/data/media/",
+                "./resource/audio/98.mp4 ->/data/media/"
+            ]
+        },
+		{
+            "type": "ShellKit",
+            "run-command": [
+                "chmod -R 666 /data/media/*",
+                "setenforce 0"
+            ],
+            "teardown-command":[
+                "setenforce 1"
+            ]
+        },
+        {
+            "test-file-name": [
+                "ActsAudioPlayerJsTest.hap"
+            ],
+            "type": "AppInstallKit",
+            "cleanup-apps": true
+        }
+    ]
+}

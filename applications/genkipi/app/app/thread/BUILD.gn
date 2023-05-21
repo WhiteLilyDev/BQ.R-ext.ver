@@ -1,0 +1,9 @@
+static_library("thread") {
+    sources = [
+        "main.c"
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include"
+    ]
+}

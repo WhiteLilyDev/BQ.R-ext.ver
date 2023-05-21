@@ -1,0 +1,13 @@
+static_library("lcd_test") {
+    sources = [
+        "main.c",
+        "lcd.c",
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//device/itcast/genkipi/interfaces/kits",
+        "//foundation/communication/wifi_lite/interfaces/wifiservice",
+    ]
+}

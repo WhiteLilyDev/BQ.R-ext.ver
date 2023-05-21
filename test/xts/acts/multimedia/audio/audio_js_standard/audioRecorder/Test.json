@@ -1,0 +1,49 @@
+{
+    "description": "Configuration for audioRecorder Tests",
+    "driver": {
+        "type": "JSUnitTest",
+        "test-timeout": "1000000",
+        "package": "ohos.acts.multimedia.audio.audiorecorder",
+        "shell-timeout": "60000"
+    },
+    "kits": [
+        {
+            "type": "ShellKit",
+            "run-command": [
+                "mkdir -p /data/accounts/account_0/appdata/recorder",
+                "touch /data/accounts/account_0/appdata/recorder/test1.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/test2.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/test3.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/test4.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/test5.mp4",
+                "touch /data/accounts/account_0/appdata/recorder/test6.mp4",
+                "touch /data/accounts/account_0/appdata/recorder/test7.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/test8.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/test9.mp4",
+                "touch /data/accounts/account_0/appdata/recorder/test10.mp4",
+                "touch /data/accounts/account_0/appdata/recorder/test11.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/test12.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/test13.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/test14.mp4",
+                "touch /data/accounts/account_0/appdata/recorder/test15.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/test16.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/test17.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/test18.mp4",
+                "touch /data/accounts/account_0/appdata/recorder/test19.m4a",
+                "touch /data/accounts/account_0/appdata/recorder/testAPI.m4a",
+                "chmod -R 777 /data/accounts/account_0/appdata/recorder/*",
+                "setenforce 0"
+            ],
+            "teardown-command":[
+                "setenforce 1"
+            ]
+        },
+        {
+            "test-file-name": [
+                "ActsAudioRecorderJsTest.hap"
+            ],
+            "type": "AppInstallKit",
+            "cleanup-apps": true
+        }
+    ]
+}

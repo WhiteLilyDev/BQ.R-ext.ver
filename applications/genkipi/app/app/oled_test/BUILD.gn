@@ -1,0 +1,19 @@
+static_library("oled_test") {
+    sources = [
+        "main.c",
+        "pca9685.c",
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//device/itcast/genkipi/hi3861_adapter/hals/interfaces/car/include", #ssd1306
+
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//device/itcast/genkipi/interfaces/kits",
+
+#        "//domains/iot/link/libbuild",
+#        "//kernel/liteos_m/kal/cmsis/",
+#        "//device/itcast/genkipi/iot_tool/include",
+#        "//third_party/cJSON/"
+    ]
+}

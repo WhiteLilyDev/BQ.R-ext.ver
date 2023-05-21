@@ -1,0 +1,60 @@
+{
+    "name": "@ohos/security_huks",
+    "version": "",
+    "description": "在分布式场景下，不同终端设备的硬件能力和运行系统环境都不尽相同，这些设备在分布式场景下，均需要建立信任关系，最典型的应用即是HiChain可信互联。那么就需要这样一个统一的密钥管理服务，来做到接口一致，密钥数据格式一致，同时提供业界标准的加解密算法实现。HUKS基于此来提供统一的密钥管理、加解密等能力。",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "Apache V2",
+    "repository": "https://gitee.com/openharmony/security_huks",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "base"
+    ],
+    "keywords": [
+        "security",
+        "huks"
+    ],
+    "envs": [],
+    "dirs": [],
+    "author": {
+        "name": "",
+        "email": "",
+        "url": ""
+    },
+    "contributors": [
+        {
+            "name": "",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "segment": {
+        "destPath": "base/security/huks"
+    },
+    "component": {
+        "name": "huks",
+        "subsystem": "security",
+        "syscap": [
+            "SystemCapability.Security.Huks"
+        ],
+        "features": [],
+        "adapted_system_type": [
+            "min",
+            "small"
+        ],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "@ohos/kv_store",
+    "version": "",
+    "description": "该模块提供读取，设置，删除数据项的功能",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "Apache V2",
+    "repository": "https://gitee.com/openharmony/utils_native_lite/tree/master/kv_store",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+		"utils"
+	],
+    "keywords": [
+		"kv_store",
+		"native",
+		"lite"
+	],
+    "envs": [],
+    "dirs": [],
+    "author": {
+        "name": "",
+        "email": "",
+        "url": ""
+    },
+    "contributors": [
+        {
+            "name": "",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "segment": {
+		"destPath": "utils/native/lite/kv_store"
+	},
+    "component": {
+        "name": "kv_store",
+        "subsystem": "native",
+        "syscap": [
+            "SystemCapability.Utils.kv_store"
+        ],
+        "features": [],
+        "adapted_system_type": [
+            "mini",
+            "small"
+        ],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

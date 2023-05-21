@@ -1,0 +1,39 @@
+{
+    "name": "@ohos/littlefs",
+    "version": "",
+    "description": "A little fail-safe filesystem designed for microcontrollers.",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "BSD 3-Clause",
+    "repository": "https://gitee.com/openharmony/third_party_littlefs",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "third_party"
+    ],
+    "keywords": [
+        "third-party",
+        "littlefs"
+    ],
+    "envs": {},
+    "dirs": {},
+    "segment": {
+        "destPath": "third_party/littlefs"
+    },
+    "component": {
+        "name": "thirdparty_littlefs",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [],
+        "rom": "",
+        "ram": "",
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}

@@ -1,0 +1,15 @@
+static_library("lo_test") {
+    sources = [
+        "main.c",
+        "lcd.c",
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//device/itcast/genkipi/hi3861_adapter/hals/interfaces/car/include", #ssd1306
+
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//device/itcast/genkipi/interfaces/kits",
+        "//foundation/communication/wifi_lite/interfaces/wifiservice",
+    ]
+}

@@ -1,0 +1,43 @@
+static_library("hal_genkipi_interfaces") {
+    if (board_name == "genkipi") {
+        sources = [
+            "sdk_adapter.c",
+            "hal_genki_thread.c",
+            "hal_genki_led.c",
+            "hal_genki_servo.c",
+            "hal_genki_wifi_sta.c",
+            "hal_genki_wifi_ap.c",
+            "hal_genki_common.c",
+            "hal_genki_switcher.c",
+
+            "car/config.c",
+            "car/linetrack.c",
+            "car/motor.c",
+            "car/oled.c",
+            "car/ssd1306_i2c.c",
+            "car/ultrasound.c",
+            "car/xl9555.c",
+
+            "nano/buzzer.c",
+            "nano/lcd.c",
+
+           "socket/socket.c"
+        ]
+        include_dirs = [
+            "car/include",
+            "//utils/native/lite/include",
+            "//base/iot_hardware/peripheral/interfaces/kits",
+            "//foundation/communication/wifi_lite/interfaces/wifiservice",
+            "//device/itcast/genkipi/sdk_liteos/include",
+            "//device/itcast/genkipi/interfaces/kits",
+            "//device/itcast/genkipi/iot_lvgl/lcd",
+            "//device/itcast/genkipi/iot_lvgl/lcd/GUI",
+            "//device/itcast/genkipi/iot_lvgl/lcd/GUI/lvgl",
+            "//device/itcast/genkipi/iot_lvgl/lcd/GUI/lvgl_drivers",
+        ]
+        deps = [
+            "//device/itcast/genkipi/iot_lvgl"
+        ]
+
+    }
+}

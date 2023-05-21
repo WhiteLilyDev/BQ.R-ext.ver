@@ -1,0 +1,61 @@
+{
+    "name": "@ohos/startup_bootstrap_lite",
+    "version": "",
+    "description": "bootstrap启动服务模块：\r\n支持使用LiteOS-M内核的平台，当前包括：Hi3861平台。提供了各服务和功能的启动入口标识。在SAMGR启动时，会调用boostrap标识的入口函数，并启动系统服务。",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "Apache V2",
+    "repository": "https://gitee.com/openharmony/startup_bootstrap_lite",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "base"
+    ],
+    "keywords": [
+        "startup",
+        "bootstrap",
+        "lite"
+    ],
+    "envs": [],
+    "dirs": [],
+    "author": {
+        "name": "",
+        "email": "",
+        "url": ""
+    },
+    "contributors": [
+        {
+            "name": "",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "segment": {
+        "destPath": "base/startup/bootstrap_lite"
+    },
+    "component": {
+        "name": "bootstrap",
+        "subsystem": "startup",
+        "syscap": [
+            "SystemCapability.Startup.Bootstrap"
+        ],
+        "features": [],
+        "adapted_system_type": [
+            "mini",
+            "small"
+        ],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}
